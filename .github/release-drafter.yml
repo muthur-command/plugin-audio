@@ -1,4 +1,6 @@
 template: |
+  **MCOS** audio plugin (`ghcr.io/muthur-command/mcio-audio`, **`io.mcio.*`** labels). See **README.md**.
+
   ## What's Changed
-  
+
   $CHANGES

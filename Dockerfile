@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/home-assistant/base:3.23-2026.03.1
+ARG BUILD_FROM=ghcr.io/muthur-command/base:3.23
 FROM ${BUILD_FROM}
 
 SHELL ["/bin/ash", "-o", "pipefail", "-c"]
@@ -101,10 +101,10 @@ RUN \
 COPY rootfs /
 
 LABEL \
-    io.hass.type="audio" \
-    org.opencontainers.image.title="Home Assistant Audio Plugin" \
-    org.opencontainers.image.description="Home Assistant Supervisor plugin for Audio" \
-    org.opencontainers.image.authors="The Home Assistant Authors" \
-    org.opencontainers.image.url="https://www.home-assistant.io/" \
-    org.opencontainers.image.documentation="https://www.home-assistant.io/docs/" \
+    io.mcio.type="audio" \
+    org.opencontainers.image.title="MCOS audio plugin (PulseAudio)" \
+    org.opencontainers.image.description="Supervisor-managed audio plugin container for MCOS" \
+    org.opencontainers.image.authors="muthur-command (fork; upstream copyright in LICENSE)" \
+    org.opencontainers.image.url="https://github.com/muthur-command/plugin-audio" \
+    org.opencontainers.image.documentation="https://github.com/muthur-command/plugin-audio" \
     org.opencontainers.image.licenses="Apache License 2.0"
