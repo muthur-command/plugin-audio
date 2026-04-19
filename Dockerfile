@@ -102,8 +102,8 @@ COPY rootfs /
 
 LABEL \
     io.mcio.type="audio" \
-    org.opencontainers.image.title="MCOS audio plugin (PulseAudio)" \
-    org.opencontainers.image.description="Supervisor-managed audio plugin container for MCOS" \
+    org.opencontainers.image.title="Muthur Command OS audio plugin (PulseAudio)" \
+    org.opencontainers.image.description="Supervisor-managed audio plugin container for Muthur Command OS" \
     org.opencontainers.image.authors="muthur-command (fork; upstream copyright in LICENSE)" \
     org.opencontainers.image.url="https://github.com/muthur-command/plugin-audio" \
     org.opencontainers.image.documentation="https://github.com/muthur-command/plugin-audio" \
