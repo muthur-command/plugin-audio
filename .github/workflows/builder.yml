@@ -22,7 +22,7 @@ env:
   ARCHITECTURES: '["amd64", "aarch64"]'
   BUILD_NAME: audio
   BUILD_TYPE: plugin
-  IMAGE_NAME: mcio-audio
+  IMAGE_NAME: mcos-audio
 
 permissions:
   contents: read

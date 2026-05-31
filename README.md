@@ -2,13 +2,13 @@
 
 中文文档: [`README.zh-CN.md`](./README.zh-CN.md)
 
-Supervisor-managed **audio** add-on for **Muthur Command OS** (PulseAudio on **`ghcr.io/muthur-command/base`**; OCI labels **`io.mcio.*`**).
+Supervisor-managed **audio** add-on for **Muthur Command OS** (PulseAudio on **`ghcr.io/muthur-command/base`**; OCI labels **`io.mcos.*`**).
 
 Upstream ALSA card configs are retained where applicable; see **LICENSE** for copyright.
 
 ## Operations
 
-If your stack exposes the Supervisor CLI, **`mc audio`** commands remain useful for inspection and control (legacy stacks may still expose **`ha audio`**); see **Muthur Command OS** / Supervisor documentation for exact behavior.
+If your stack exposes the Supervisor CLI, **`mc audio`** commands are used for inspection and control; see **Muthur Command OS** / Supervisor documentation for exact behavior.
 
 ## Origin
 

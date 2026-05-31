@@ -2,13 +2,13 @@
 
 英文文档: [`README.md`](./README.md)
 
-由 Supervisor 管理的 **音频** 插件容器，面向 **Muthur Command OS**（基于 **`ghcr.io/muthur-command/base`**；OCI 标签 **`io.mcio.*`**）。
+由 Supervisor 管理的 **音频** 插件容器，面向 **Muthur Command OS**（基于 **`ghcr.io/muthur-command/base`**；OCI 标签 **`io.mcos.*`**）。
 
 在适用场景下保留上游 ALSA 声卡配置；版权见 **LICENSE**。
 
 ## 运维
 
-若监管栈暴露 Supervisor CLI，**`mc audio`** 系列命令通常仍可用于查看与控制（旧栈可能仍为 **`ha audio`**）；具体以 **Muthur Command OS** / Supervisor 文档为准。
+若监管栈暴露 Supervisor CLI，使用 **`mc audio`** 系列命令进行查看与控制；具体以 **Muthur Command OS** / Supervisor 文档为准。
 
 ## 来源
 
